@@ -1,3 +1,4 @@
 [submodule "gpcc"]
 	path = gpcc
 	url = git@github.com:DanielJerolm/gpcc.git
+	branch = develop

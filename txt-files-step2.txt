@@ -1,0 +1,13 @@
+ S1   S2  File
+[  ] [  ] ./gpcc/doc/doxygen/how_to_compress.txt
+[  ] [  ] ./gpcc/src/osal/os/linux_arm/CancellationPoints.txt
+[  ] [  ] ./gpcc/src/osal/os/linux_x64/CancellationPoints.txt
+[nA] [OK] ./gpcc/doxygen_templates.txt
+[  ] [  ] ./gpcc/eclipse_setup.txt
+[  ] [  ] ./gpcc/exception_usage.txt
+[  ] [  ] ./gpcc/failed_unit_tests.txt
+[  ] [  ] ./gpcc/feature_requests.txt
+[  ] [  ] ./gpcc/history.txt
+[  ] [  ] ./gpcc/license.txt
+[  ] [  ] ./gpcc/license_exception.txt
+[  ] [  ] ./gpcc/readme.txt

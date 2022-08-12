@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "Linux-unittests",
+            "includePath": [
+                "/usr/include",
+                "/usr/local/include"
+            ],
+            "compileCommands": "${workspaceFolder}/build_unittest/compile_commands.json",
+            "compilerPath": "/usr/bin/gcc",
+            "intelliSenseMode": "linux-gcc-x64"
+        },
+        {
+            "name": "ChibiOS/RT-productive",
+            "compileCommands": "${workspaceFolder}/build_chibiosrt/compile_commands.json",
+            "compilerPath": "/opt/gcc-arm-none-eabi-posix-10.3/bin/arm-none-eabi-gcc",
+            "intelliSenseMode": "linux-gcc-arm"
+        }
+    ],
+    "version": 4
+}

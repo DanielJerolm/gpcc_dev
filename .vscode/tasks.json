@@ -4,6 +4,24 @@
   "version": "2.0.0",
   "tasks": [
     {
+        "label": "cmake_init_chibiosrt_release",
+        "type": "shell",
+        "command": "./cmake_init_chibiosrt_release.sh",
+        "options": {
+            "cwd": "${workspaceFolder}/scripts"
+        },
+        "problemMatcher": []
+    },
+    {
+        "label": "cmake_init_linux-native_release",
+        "type": "shell",
+        "command": "./cmake_init_linux-native_release.sh",
+        "options": {
+            "cwd": "${workspaceFolder}/scripts"
+        },
+        "problemMatcher": []
+    },
+    {
         "label": "cmake_init_unittest_debug",
         "type": "shell",
         "command": "./cmake_init_unittest_debug.sh",
@@ -22,13 +40,56 @@
         "problemMatcher": []
     },
     {
-        "label": "cmake_init_chibiosrt_release",
+        "label": "clean (ChibiOS/RT)",
         "type": "shell",
-        "command": "./cmake_init_chibiosrt_release.sh",
+        "command": "./build_chibiosrt.sh",
+        "args": [
+            "clean"
+        ],
         "options": {
             "cwd": "${workspaceFolder}/scripts"
         },
         "problemMatcher": []
+    },
+    {
+        "label": "build (ChibiOS/RT)",
+        "type": "shell",
+        "command": "./build_chibiosrt.sh",
+        "args": [
+            "all"
+        ],
+        "options": {
+            "cwd": "${workspaceFolder}/scripts"
+        },
+        "problemMatcher": [
+            "$gcc"
+        ]
+    },
+    {
+        "label": "clean (Linux-native)",
+        "type": "shell",
+        "command": "./build_linux-native.sh",
+        "args": [
+            "clean"
+        ],
+        "options": {
+            "cwd": "${workspaceFolder}/scripts"
+        },
+        "problemMatcher": []
+    },
+    {
+        "label": "build (Linux-native)",
+        "type": "shell",
+        "command": "./build_linux-native.sh",
+        "args": [
+            "all"
+        ],
+        "options": {
+            "cwd": "${workspaceFolder}/scripts"
+        },
+        "problemMatcher": [
+            "$gcc"
+        ]
     },
     {
         "label": "clean (unittest)",
@@ -46,32 +107,6 @@
         "label": "build (unittest)",
         "type": "shell",
         "command": "./build_unittest.sh",
-        "args": [
-            "all"
-        ],
-        "options": {
-            "cwd": "${workspaceFolder}/scripts"
-        },
-        "problemMatcher": [
-            "$gcc"
-        ]
-    },
-    {
-        "label": "clean (ChibiOS/RT)",
-        "type": "shell",
-        "command": "./build_chibiosrt.sh",
-        "args": [
-            "clean"
-        ],
-        "options": {
-            "cwd": "${workspaceFolder}/scripts"
-        },
-        "problemMatcher": []
-    },
-    {
-        "label": "build (ChibiOS/RT)",
-        "type": "shell",
-        "command": "./build_chibiosrt.sh",
         "args": [
             "all"
         ],

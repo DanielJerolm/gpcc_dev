@@ -143,7 +143,7 @@
         "type": "shell",
         "command": "./execute_unittests.sh",
         "args": [
-            "--gtest_filter=gpcc_raii_scope_guard_Tests.Performance*"
+            "--gtest_filter=gpcc_crc_SimpleCRC_Tests*"
         ],
         "options": {
             "cwd": "${workspaceFolder}/scripts"

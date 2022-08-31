@@ -42,7 +42,7 @@ endif()
 
 set(GPCC_SkipTFCBasedTests OFF CACHE BOOL "")
 set(GPCC_SkipLoadDependentTests OFF CACHE BOOL "")
-set(GPCC_SkipVeryBigMemTests OFF CACHE BOOL "")
+set(GPCC_SkipVeryBigMemTests ON CACHE BOOL "")
 set(GPCC_SkipSpecialRightsBasedTests OFF CACHE BOOL "")
 
 # ---------------------------------------------------------------------------------------------------------------------

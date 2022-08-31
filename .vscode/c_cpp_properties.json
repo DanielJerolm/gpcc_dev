@@ -1,6 +1,16 @@
 {
     "configurations": [
         {
+            "name": "Linux-native",
+            "includePath": [
+                "/usr/include",
+                "/usr/local/include"
+            ],
+            "compileCommands": "${workspaceFolder}/build_linuxnative/compile_commands.json",
+            "compilerPath": "/usr/bin/gcc",
+            "intelliSenseMode": "linux-gcc-x64"
+        },
+        {
             "name": "Linux-unittests",
             "includePath": [
                 "/usr/include",

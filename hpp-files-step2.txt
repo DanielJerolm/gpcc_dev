@@ -46,7 +46,7 @@
 [OK] [  ] ./gpcc/src/execution/async/WorkQueue.hpp
 [OK] [  ] ./gpcc/src/execution/cyclic/TriggeredThreadedCyclicExec.hpp
 [OK] [  ] ./gpcc/src/execution/cyclic/TTCEStartStopCtrl.hpp
-[  ] [  ] ./gpcc/src/file_systems/CLI/ISFCLICommands.hpp
+[  ] [  ] ./gpcc/src/file_systems/CLI/IFSCLICommands.hpp
 [  ] [  ] ./gpcc/src/file_systems/EEPROMSectionSystem/CLI/ESSCLICommands.hpp
 [  ] [  ] ./gpcc/src/file_systems/EEPROMSectionSystem/internal/BlockAccessor.hpp
 [  ] [  ] ./gpcc/src/file_systems/EEPROMSectionSystem/internal/EEPROMSectionSystemInternals.hpp
@@ -156,13 +156,13 @@
 [  ] [OK] ./gpcc/src/ResourceManagement/Objects/HierarchicNamedRWLock.hpp
 [  ] [  ] ./gpcc/src/ResourceManagement/Objects/LargeDynamicNamedRWLock.hpp
 [  ] [  ] ./gpcc/src/ResourceManagement/Objects/SmallDynamicNamedRWLock.hpp
-[  ] [  ] ./gpcc/src/StdIf/I2C/I2C_Master_Driver_Exceptions.hpp
-[  ] [  ] ./gpcc/src/StdIf/I2C/II2C_Master_Driver.hpp
-[  ] [  ] ./gpcc/src/StdIf/I2C/II2C_Tools.hpp
-[  ] [OK] ./gpcc/src/StdIf/serial/ISyncSerialIO.hpp  (rename namespace: StdIf -> stdif)
-[  ] [  ] ./gpcc/src/StdIf/IIRQ2ThreadWakeup.hpp
-[  ] [  ] ./gpcc/src/StdIf/IRandomAccessStorage.hpp
-[  ] [  ] ./gpcc/src/StdIf/IRandomAccessStorageCLI.hpp
+[  ] [  ] ./gpcc/src/stdif/I2C/I2C_Master_Driver_Exceptions.hpp
+[  ] [  ] ./gpcc/src/stdif/I2C/II2C_Master.hpp
+[  ] [  ] ./gpcc/src/stdif/I2C/II2C_Tools.hpp
+[  ] [OK] ./gpcc/src/stdif/serial/ISyncSerialIO.hpp  (rename namespace: stdif -> stdif)
+[  ] [  ] ./gpcc/src/stdif/IIRQ2ThreadWakeup.hpp
+[  ] [  ] ./gpcc/src/stdif/IRandomAccessStorage.hpp
+[  ] [  ] ./gpcc/src/stdif/IRandomAccessStorageCLI.hpp
 [  ] [  ] ./gpcc/src/Stream/IStreamReader.hpp
 [  ] [  ] ./gpcc/src/Stream/IStreamWriter.hpp
 [  ] [  ] ./gpcc/src/Stream/MemStreamReader.hpp

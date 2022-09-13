@@ -108,8 +108,8 @@
 [  ] [OK] ./gpcc/src/ResourceManagement/Objects/HierarchicNamedRWLock.cpp
 [  ] [  ] ./gpcc/src/ResourceManagement/Objects/LargeDynamicNamedRWLock.cpp
 [  ] [  ] ./gpcc/src/ResourceManagement/Objects/SmallDynamicNamedRWLock.cpp
-[  ] [  ] ./gpcc/src/StdIf/I2C/II2C_Tools.cpp
-[  ] [  ] ./gpcc/src/StdIf/IRandomAccessStorageCLI.cpp
+[  ] [  ] ./gpcc/src/stdif/I2C/II2C_Tools.cpp
+[  ] [  ] ./gpcc/src/stdif/IRandomAccessStorageCLI.cpp
 [  ] [  ] ./gpcc/src/Stream/IStreamReader.cpp
 [  ] [  ] ./gpcc/src/Stream/IStreamWriter.cpp
 [  ] [  ] ./gpcc/src/Stream/MemStreamReader.cpp
@@ -211,8 +211,8 @@
 [  ] [OK] ./gpcc/test_src/ResourceManagement/Objects/TestHierarchicNamedRWLock.cpp
 [  ] [  ] ./gpcc/test_src/ResourceManagement/Objects/TestLargeDynamicNamedRWLock.cpp
 [  ] [  ] ./gpcc/test_src/ResourceManagement/Objects/TestSmallDynamicNamedRWLock.cpp
-[OK] [  ] ./gpcc/test_src/StdIf/I2C/TestII2C_Tools.cpp
-[OK] [  ] ./gpcc/test_src/StdIf/TestIRandomAccessStorageCLI.cpp
+[OK] [  ] ./gpcc/test_src/stdif/I2C/TestII2C_Tools.cpp
+[OK] [  ] ./gpcc/test_src/stdif/TestIRandomAccessStorageCLI.cpp
 [  ] [  ] ./gpcc/test_src/Stream/TestIStreamReader.cpp
 [  ] [  ] ./gpcc/test_src/Stream/TestIStreamWriter.cpp
 [  ] [  ] ./gpcc/test_src/Stream/TestMemStreamReader.cpp

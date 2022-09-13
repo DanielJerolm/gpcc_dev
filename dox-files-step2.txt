@@ -31,9 +31,9 @@
 [  ] [  ] ./gpcc/src/ResourceManagement/Objects/Objects.dox
 [  ] [OK] ./gpcc/src/ResourceManagement/Objects/internal/internal.dox
 [  ] [  ] ./gpcc/src/ResourceManagement/ResourceManagement.dox
-[  ] [  ] ./gpcc/src/StdIf/I2C/I2C.dox
-[  ] [OK] ./gpcc/src/StdIf/serial/serial.dox
-[  ] [  ] ./gpcc/src/StdIf/StdIf.dox
+[  ] [  ] ./gpcc/src/stdif/I2C/I2C.dox
+[  ] [OK] ./gpcc/src/stdif/serial/serial.dox
+[  ] [  ] ./gpcc/src/stdif/stdif.dox
 [  ] [  ] ./gpcc/src/Stream/Stream.dox
 [OK] [  ] ./gpcc/src/string/string.dox
 [OK] [  ] ./gpcc/src/time/time.dox

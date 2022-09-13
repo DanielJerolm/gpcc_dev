@@ -31,19 +31,19 @@ set(GPCC_TargetEnvironment "unittest" CACHE STRING "" FORCE)
 
 if((CMAKE_SYSTEM_PROCESSOR STREQUAL "x86_64" OR CMAKE_SYSTEM_PROCESSOR STREQUAL "amd64"))
   set(GPCC_Compiler "gcc_x64" CACHE STRING "" FORCE)
-  set(GPCC_OS "linux_x64_tfc" CACHE STRING "")
+  set(GPCC_OS "linux_x64_tfc" CACHE STRING "" FORCE)
 elseif((CMAKE_SYSTEM_PROCESSOR STREQUAL "arm" OR CMAKE_SYSTEM_PROCESSOR STREQUAL "arm64"))
   set(GPCC_Compiler "gcc_arm" CACHE STRING "" FORCE)
-  set(GPCC_OS "linux_arm_tfc" CACHE STRING "")
+  set(GPCC_OS "linux_arm_tfc" CACHE STRING "" FORCE)
 else()
   message(FATAL_ERROR "System processor (${CMAKE_SYSTEM_PROCESSOR}) not supported. Supported processors:\n"
                       "x86_64, amd64, arm, arm64")
 endif()
 
-set(GPCC_SkipTFCBasedTests OFF CACHE BOOL "")
-set(GPCC_SkipLoadDependentTests OFF CACHE BOOL "")
-set(GPCC_SkipVeryBigMemTests ON CACHE BOOL "")
-set(GPCC_SkipSpecialRightsBasedTests OFF CACHE BOOL "")
+set(GPCC_SkipTFCBasedTests OFF CACHE BOOL "" FORCE)
+set(GPCC_SkipLoadDependentTests OFF CACHE BOOL "" FORCE)
+set(GPCC_SkipVeryBigMemTests ON CACHE BOOL "" FORCE)
+set(GPCC_SkipSpecialRightsBasedTests OFF CACHE BOOL "" FORCE)
 
 # ---------------------------------------------------------------------------------------------------------------------
 # Add required sub-projects

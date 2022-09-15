@@ -10,3 +10,5 @@ After cloning, all submodules incl. GPCC will be on a defined commit, but will a
 To checkout the "restruct_header" branch use:
 
 git clone -b restruct_headers --recurse-submodules git@github.com:DanielJerolm/gpcc_dev.git
+
+After cloning, you may open the included VSCODE workspace file (gpcc_dev-Workspace.code-workspace) with VSCODE.

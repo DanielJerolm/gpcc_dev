@@ -13,9 +13,9 @@
 [OK] [  ] ./gpcc/src/execution/cyclic/cyclic.dox
 [OK] [  ] ./gpcc/src/execution/execution.dox
 [  ] [  ] ./gpcc/src/file_systems/CLI/CLI.dox
-[  ] [  ] ./gpcc/src/file_systems/EEPROMSectionSystem/CLI/CLI.dox
-[  ] [  ] ./gpcc/src/file_systems/EEPROMSectionSystem/internal/internal.dox
-[  ] [  ] ./gpcc/src/file_systems/EEPROMSectionSystem/EEPROMSectionSystem.dox
+[  ] [  ] ./gpcc/src/file_systems/eeprom_section_system/CLI/CLI.dox
+[  ] [  ] ./gpcc/src/file_systems/eeprom_section_system/internal/internal.dox
+[  ] [  ] ./gpcc/src/file_systems/eeprom_section_system/EEPROMSectionSystem.dox
 [  ] [OK] ./gpcc/src/file_systems/linux_fs/internal/internal.dox
 [  ] [OK] ./gpcc/src/file_systems/linux_fs/linux_fs.dox
 [  ] [OK] ./gpcc/src/file_systems/file_systems.dox

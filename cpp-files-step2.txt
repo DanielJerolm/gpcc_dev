@@ -29,13 +29,13 @@
 [OK] [  ] ./gpcc/src/execution/cyclic/TriggeredThreadedCyclicExec.cpp
 [OK] [  ] ./gpcc/src/execution/cyclic/TTCEStartStopCtrl.cpp
 [  ] [  ] ./gpcc/src/file_systems/CLI/ISFCLICommands.cpp
-[  ] [  ] ./gpcc/src/file_systems/EEPROMSectionSystem/CLI/ESSCLICommands.cpp
-[  ] [  ] ./gpcc/src/file_systems/EEPROMSectionSystem/internal/BlockAccessor.cpp
-[  ] [  ] ./gpcc/src/file_systems/EEPROMSectionSystem/internal/EEPROMSectionSystemInternals.cpp
-[  ] [  ] ./gpcc/src/file_systems/EEPROMSectionSystem/internal/FreeBlockListBackup.cpp
-[  ] [  ] ./gpcc/src/file_systems/EEPROMSectionSystem/internal/SectionReader.cpp
-[  ] [  ] ./gpcc/src/file_systems/EEPROMSectionSystem/internal/SectionWriter.cpp
-[  ] [  ] ./gpcc/src/file_systems/EEPROMSectionSystem/EEPROMSectionSystem.cpp
+[  ] [  ] ./gpcc/src/file_systems/eeprom_section_system/CLI/ESSCLICommands.cpp
+[  ] [  ] ./gpcc/src/file_systems/eeprom_section_system/internal/BlockAccessor.cpp
+[  ] [  ] ./gpcc/src/file_systems/eeprom_section_system/internal/EEPROMSectionSystemInternals.cpp
+[  ] [  ] ./gpcc/src/file_systems/eeprom_section_system/internal/FreeBlockListBackup.cpp
+[  ] [  ] ./gpcc/src/file_systems/eeprom_section_system/internal/SectionReader.cpp
+[  ] [  ] ./gpcc/src/file_systems/eeprom_section_system/internal/SectionWriter.cpp
+[  ] [  ] ./gpcc/src/file_systems/eeprom_section_system/EEPROMSectionSystem.cpp
 [  ] [OK] ./gpcc/src/file_systems/linux_fs/internal/StdIOFileReader.cpp
 [  ] [OK] ./gpcc/src/file_systems/linux_fs/internal/StdIOFileWriter.cpp
 [  ] [OK] ./gpcc/src/file_systems/linux_fs/internal/tools.cpp
@@ -162,14 +162,14 @@
 [OK] [  ] ./gpcc/test_src/execution/cyclic/WaitUntilStoppedHelper.cpp
 [OK] [OK] ./gpcc/test_src/fakes/cli/FakeTerminal.cpp
 [  ] [  ] ./gpcc/test_src/file_systems/CLI/TestISFCLICommands.cpp
-[  ] [  ] ./gpcc/test_src/file_systems/EEPROMSectionSystem/CLI/TestESSCLICommands.cpp
-[  ] [  ] ./gpcc/test_src/file_systems/EEPROMSectionSystem/internal/TestBlockAccessor.cpp
-[  ] [  ] ./gpcc/test_src/file_systems/EEPROMSectionSystem/EEPROMSectionSystemTestFixture.cpp
-[  ] [  ] ./gpcc/test_src/file_systems/EEPROMSectionSystem/FakeEEPROM.cpp
-[  ] [  ] ./gpcc/test_src/file_systems/EEPROMSectionSystem/FakeEEPROMUndo.cpp
-[  ] [  ] ./gpcc/test_src/file_systems/EEPROMSectionSystem/RandomData.cpp
-[  ] [  ] ./gpcc/test_src/file_systems/EEPROMSectionSystem/TestEEPROMSectionSystem.cpp
-[  ] [  ] ./gpcc/test_src/file_systems/EEPROMSectionSystem/TestFakeEEPROM.cpp
+[  ] [  ] ./gpcc/test_src/file_systems/eeprom_section_system/CLI/TestESSCLICommands.cpp
+[  ] [  ] ./gpcc/test_src/file_systems/eeprom_section_system/internal/TestBlockAccessor.cpp
+[  ] [  ] ./gpcc/test_src/file_systems/eeprom_section_system/EEPROMSectionSystemTestFixture.cpp
+[  ] [  ] ./gpcc/test_src/file_systems/eeprom_section_system/FakeEEPROM.cpp
+[  ] [  ] ./gpcc/test_src/file_systems/eeprom_section_system/FakeEEPROMUndo.cpp
+[  ] [  ] ./gpcc/test_src/file_systems/eeprom_section_system/RandomData.cpp
+[  ] [  ] ./gpcc/test_src/file_systems/eeprom_section_system/TestEEPROMSectionSystem.cpp
+[  ] [  ] ./gpcc/test_src/file_systems/eeprom_section_system/TestFakeEEPROM.cpp
 [  ] [OK] ./gpcc/test_src/file_systems/linux_fs/Test_tools.cpp
 [  ] [OK] ./gpcc/test_src/file_systems/linux_fs/TestFileStorage.cpp
 [  ] [OK] ./gpcc/test_src/file_systems/linux_fs/TestUnitTestDirProvider.cpp

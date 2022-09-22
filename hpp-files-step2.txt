@@ -46,15 +46,15 @@
 [OK] [  ] ./gpcc/src/execution/async/WorkQueue.hpp
 [OK] [  ] ./gpcc/src/execution/cyclic/TriggeredThreadedCyclicExec.hpp
 [OK] [  ] ./gpcc/src/execution/cyclic/TTCEStartStopCtrl.hpp
-[  ] [  ] ./gpcc/src/file_systems/CLI/ISFCLICommands.hpp
-[  ] [  ] ./gpcc/src/file_systems/EEPROMSectionSystem/CLI/ESSCLICommands.hpp
-[  ] [  ] ./gpcc/src/file_systems/EEPROMSectionSystem/internal/BlockAccessor.hpp
-[  ] [  ] ./gpcc/src/file_systems/EEPROMSectionSystem/internal/EEPROMSectionSystemInternals.hpp
-[  ] [  ] ./gpcc/src/file_systems/EEPROMSectionSystem/internal/FreeBlockListBackup.hpp
-[  ] [  ] ./gpcc/src/file_systems/EEPROMSectionSystem/internal/SectionReader.hpp
-[  ] [  ] ./gpcc/src/file_systems/EEPROMSectionSystem/internal/SectionWriter.hpp
-[  ] [  ] ./gpcc/src/file_systems/EEPROMSectionSystem/EEPROMSectionSystem.hpp
-[  ] [  ] ./gpcc/src/file_systems/EEPROMSectionSystem/Exceptions.hpp
+[  ] [  ] ./gpcc/src/file_systems/CLI/IFSCLICommands.hpp
+[  ] [  ] ./gpcc/src/file_systems/eeprom_section_system/CLI/ESSCLICommands.hpp
+[  ] [  ] ./gpcc/src/file_systems/eeprom_section_system/internal/BlockAccessor.hpp
+[  ] [  ] ./gpcc/src/file_systems/eeprom_section_system/internal/EEPROMSectionSystemInternals.hpp
+[  ] [  ] ./gpcc/src/file_systems/eeprom_section_system/internal/FreeBlockListBackup.hpp
+[  ] [  ] ./gpcc/src/file_systems/eeprom_section_system/internal/SectionReader.hpp
+[  ] [  ] ./gpcc/src/file_systems/eeprom_section_system/internal/SectionWriter.hpp
+[  ] [  ] ./gpcc/src/file_systems/eeprom_section_system/EEPROMSectionSystem.hpp
+[  ] [  ] ./gpcc/src/file_systems/eeprom_section_system/Exceptions.hpp
 [  ] [OK] ./gpcc/src/file_systems/linux_fs/internal/StdIOFileReader.hpp
 [  ] [OK] ./gpcc/src/file_systems/linux_fs/internal/StdIOFileWriter.hpp
 [  ] [OK] ./gpcc/src/file_systems/linux_fs/internal/tools.hpp
@@ -156,13 +156,13 @@
 [  ] [OK] ./gpcc/src/ResourceManagement/Objects/HierarchicNamedRWLock.hpp
 [  ] [  ] ./gpcc/src/ResourceManagement/Objects/LargeDynamicNamedRWLock.hpp
 [  ] [  ] ./gpcc/src/ResourceManagement/Objects/SmallDynamicNamedRWLock.hpp
-[  ] [  ] ./gpcc/src/StdIf/I2C/I2C_Master_Driver_Exceptions.hpp
-[  ] [  ] ./gpcc/src/StdIf/I2C/II2C_Master_Driver.hpp
-[  ] [  ] ./gpcc/src/StdIf/I2C/II2C_Tools.hpp
-[  ] [OK] ./gpcc/src/StdIf/serial/ISyncSerialIO.hpp  (rename namespace: StdIf -> stdif)
-[  ] [  ] ./gpcc/src/StdIf/IIRQ2ThreadWakeup.hpp
-[  ] [  ] ./gpcc/src/StdIf/IRandomAccessStorage.hpp
-[  ] [  ] ./gpcc/src/StdIf/IRandomAccessStorageCLI.hpp
+[  ] [  ] ./gpcc/src/stdif/I2C/I2C_Master_Driver_Exceptions.hpp
+[  ] [  ] ./gpcc/src/stdif/I2C/II2C_Master.hpp
+[  ] [  ] ./gpcc/src/stdif/I2C/II2C_Tools.hpp
+[  ] [OK] ./gpcc/src/stdif/serial/ISyncSerialIO.hpp  (rename namespace: stdif -> stdif)
+[  ] [  ] ./gpcc/src/stdif/IIRQ2ThreadWakeup.hpp
+[  ] [  ] ./gpcc/src/stdif/IRandomAccessStorage.hpp
+[  ] [  ] ./gpcc/src/stdif/IRandomAccessStorageCLI.hpp
 [  ] [  ] ./gpcc/src/Stream/IStreamReader.hpp
 [  ] [  ] ./gpcc/src/Stream/IStreamWriter.hpp
 [  ] [  ] ./gpcc/src/Stream/MemStreamReader.hpp
@@ -187,10 +187,10 @@
 [OK] [  ] ./gpcc/test_src/execution/cyclic/UUT_TTCEStartStopCtrl.hpp
 [OK] [  ] ./gpcc/test_src/execution/cyclic/WaitUntilStoppedHelper.hpp
 [OK] [OK] ./gpcc/test_src/fakes/cli/FakeTerminal.hpp
-[  ] [  ] ./gpcc/test_src/file_systems/EEPROMSectionSystem/EEPROMSectionSystemTestFixture.hpp
-[  ] [  ] ./gpcc/test_src/file_systems/EEPROMSectionSystem/FakeEEPROM.hpp
-[  ] [  ] ./gpcc/test_src/file_systems/EEPROMSectionSystem/FakeEEPROMUndo.hpp
-[  ] [  ] ./gpcc/test_src/file_systems/EEPROMSectionSystem/RandomData.hpp
+[  ] [  ] ./gpcc/test_src/file_systems/eeprom_section_system/EEPROMSectionSystemTestFixture.hpp
+[  ] [  ] ./gpcc/test_src/file_systems/eeprom_section_system/FakeEEPROM.hpp
+[  ] [  ] ./gpcc/test_src/file_systems/eeprom_section_system/FakeEEPROMUndo.hpp
+[  ] [  ] ./gpcc/test_src/file_systems/eeprom_section_system/RandomData.hpp
 [OK] [  ] ./gpcc/test_src/log/logfacilities/FakeBackend.hpp
 [OK] [  ] ./gpcc/test_src/log/logfacilities/TestILogFacility.hpp
 [OK] [  ] ./gpcc/test_src/log/logfacilities/TestILogFacilityCtrl.hpp

@@ -46,7 +46,13 @@
 extern "C" {
 #endif
 
+  void platform_SYSTIME_getres(struct timespec* ts);
+  void platform_SYSTIME_getres_precise(struct timespec* ts);
+  void platform_SYSTIME_getres_monotonic(struct timespec* ts);
+  void platform_SYSTIME_getres_monotonic_precise(struct timespec* ts);
+
   void platform_SYSTIME_gettime(struct timespec* ts);
+  void platform_SYSTIME_gettime_precise(struct timespec* ts);
   void platform_SYSTIME_gettime_monotonic(struct timespec* ts);
   void platform_SYSTIME_gettime_monotonic_precise(struct timespec* ts);
 

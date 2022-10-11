@@ -24,7 +24,7 @@ if [ $# -ne 2 ]; then
 fi
 
 echo -e "${Cyan}========================================================================="
-echo           "cmake-project: $1"
+echo           "CMake-project: $1"
 echo -e        "=========================================================================${Color_Off}"
 
 # ensure that the build_...-folder is existing
@@ -33,7 +33,7 @@ if [ ! -d "../$1" ]; then
   exit 1
 fi
 
-# enter buld folder
+# enter build folder
 cd ../$1
 
 CORES=$(nproc)

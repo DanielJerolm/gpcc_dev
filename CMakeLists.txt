@@ -25,22 +25,27 @@
 #     be a cross-build. When configuring the project, you have to provide a toolchain file specifying the toolchain and
 #     CPU architecture specific settings. Usually one will use one of the files from "toolchain_configs".
 #     Example:
-#     cmake -S . -B build_chibiosrt
-#           -DCMAKE_TOOLCHAIN_FILE=toolchain_configs/cross_gcc/settings.arm-none-eabi-posix.cortex-m3.cmake
-#           -DGPCCDEV_Artifact:STRING=productive_chibios_arm
+#     cmake -S . -B build_chibiosrt \
+#           -DTOOLCHAIN_VERSION=<toolchain version> \
+#           -DCMAKE_TOOLCHAIN_FILE=toolchain_configs/cross_gcc/settings.arm-none-eabi-posix.cortex-m3.cmake \
+#           -DGPCCDEV_Artifact:STRING=productive_chibios_arm \
 #           -DCMAKE_BUILD_TYPE=custom_release
 #
-# - productive_native_linux:
+# - productive_linux_native:
 #     A library "gpcc" will be build for productive use on the local host (x86_64, amd64, arm, or arm64) using the
 #     native gcc compiler. No toolchain file must be provided when configuring the project.
 #     Example:
-#     cmake -S . -B build_linuxnative -DGPCCDEV_Artifact:STRING=productive_native_linux -DCMAKE_BUILD_TYPE=custom_release
+#     cmake -S . -B build_linuxnative \
+#           -DGPCCDEV_Artifact:STRING=productive_linux_native \
+#           -DCMAKE_BUILD_TYPE=custom_release
 #
 # - unittest:
 #     An executable containing GPCC's unit tests will be build for use on the local host (x86_64, amd64, arm, or arm64)
 #     using the native gcc compiler. No toolchain file must be provided when configuring the project.
 #     Example:
-#     cmake -S . -B build_unittest -DGPCCDEV_Artifact:STRING=unittest -DCMAKE_BUILD_TYPE=custom_release
+#     cmake -S . -B build_unittest \
+#           -DGPCCDEV_Artifact:STRING=unittest \
+#           -DCMAKE_BUILD_TYPE=custom_release
 #
 # After configuration it is strongly recommended that you check your settings:
 # 1. cd to you build directory
@@ -57,7 +62,7 @@ project(gpcc_dev)
 # User setting "GPCCDEV_Artifact"
 # ---------------------------------------------------------------------------------------------------------------------
 set(GPCCDEV_Artifact CACHE STRING "Selects the artifact that shall be build.")
-set(GPCCDEV_ArtifactValues "productive_chibios_arm;productive_native_linux;unittest")
+set(GPCCDEV_ArtifactValues "productive_chibios_arm;productive_linux_native;unittest")
 
 string(REPLACE ";"  ", " GPCCDEV_ArtifactValues_str "${GPCCDEV_ArtifactValues}")
 set_property(CACHE GPCCDEV_Artifact PROPERTY STRINGS ${GPCCDEV_ArtifactValues})
@@ -74,12 +79,4 @@ endif()
 # ---------------------------------------------------------------------------------------------------------------------
 # Continue in cmake files specific to the artifact
 # ---------------------------------------------------------------------------------------------------------------------
-if(${GPCCDEV_Artifact} STREQUAL "productive_chibios_arm")
-  include(CMakeLists.chibios_arm.cmake)
-elseif(${GPCCDEV_Artifact} STREQUAL "productive_native_linux")
-  include(CMakeLists.linux_native.cmake)
-elseif(${GPCCDEV_Artifact} STREQUAL "unittest")
-  include(CMakeLists.unittest.cmake)
-else()
-  message(FATAL_ERROR "Error: Value of 'GPCCDEV_Artifact' not supported.")
-endif()
+include(cmake/CMakeLists.${GPCCDEV_Artifact}.cmake)

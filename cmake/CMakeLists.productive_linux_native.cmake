@@ -7,6 +7,10 @@
 # - CPU: x86_64, amd64, arm, or arm64
 # - GNU/GCC toolchain
 #
+
+
+# Note: Current working directory is gpcc_dev's root directory
+
 cmake_minimum_required(VERSION 3.13 FATAL_ERROR)
 project(gpcc_productive_linux LANGUAGES CXX)
 

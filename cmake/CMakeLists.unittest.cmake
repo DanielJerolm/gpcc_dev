@@ -19,6 +19,10 @@
 # -DGPCC_SkipVeryBigMemTests:BOOL=ON
 # -DGPCC_SkipSpecialRightsBasedTests:BOOL=ON
 #
+
+
+# Note: Current working directory is gpcc_dev's root directory
+
 cmake_minimum_required(VERSION 3.13 FATAL_ERROR)
 project(gpcc_unittest_executable LANGUAGES CXX)
 

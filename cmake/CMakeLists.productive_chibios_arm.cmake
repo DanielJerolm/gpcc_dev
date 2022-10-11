@@ -1,6 +1,9 @@
 # Sub-CMakeLists-file for gpcc_dev, builds the productive library for Chibios/RT environment
 # ==========================================================================================
 
+
+# Note: Current working directory is gpcc_dev's root directory
+
 cmake_minimum_required(VERSION 3.13 FATAL_ERROR)
 project(gpcc_productive_chibios LANGUAGES CXX)
 

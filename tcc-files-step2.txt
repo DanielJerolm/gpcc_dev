@@ -1,6 +1,0 @@
- S1   S2  File
-[OK] [  ] ./gpcc/src/callback/MultiCallback.tcc
-[OK] [  ] ./gpcc/src/callback/MultiCallbackSM.tcc
-[  ] [OK] ./gpcc/src/container/IntrusiveDList.tcc
-[OK] [  ] ./gpcc/src/dsp/filter/IntegralFilter.tcc
-[OK] [OK] ./gpcc/src/dsp/filter/MedianFilter1D.tcc

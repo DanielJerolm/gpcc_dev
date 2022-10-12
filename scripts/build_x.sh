@@ -1,5 +1,12 @@
 #!/bin/bash
 
+# This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0.
+# If a copy of the MPL was not distributed with this file,
+# You can obtain one at https://mozilla.org/MPL/2.0/.
+#
+# Copyright (C) 2021 Daniel Jerolm
+
+
 # This script performs one of the following build operations on a build_...-folder in the parent directory:
 # Clean, incremental build or rebuild (= clean + build).
 #

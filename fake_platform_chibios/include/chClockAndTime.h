@@ -15,8 +15,8 @@
     Of course any created artifact (e.g. a GPCC library) is of no use too and will not perform the intended operation.
 */
 
-#ifndef SYSTEM_TIME_H_202205202239
-#define SYSTEM_TIME_H_202205202239
+#ifndef CHCLOCKANDTIME_H_20221022
+#define CHCLOCKANDTIME_H_20221022
 
 #include <time.h>
 
@@ -38,4 +38,4 @@ extern "C" {
 }
 #endif
 
-#endif // SYSTEM_TIME_H_202205202239
+#endif // CHCLOCKANDTIME_H_20221022

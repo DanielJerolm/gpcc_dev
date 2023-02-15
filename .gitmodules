@@ -1,11 +1,11 @@
 [submodule "gpcc"]
 	path = gpcc
-	url = git@github.com:DanielJerolm/gpcc.git
+	url = ../gpcc.git
 	branch = develop
 [submodule "googletest"]
 	path = googletest
-	url = git@github.com:google/googletest.git
+	url = ../../google/googletest.git
 [submodule "toolchain_configs"]
 	path = toolchain_configs
-	url = git@github.com:DanielJerolm/toolchain_configs.git
+	url = ../toolchain_configs.git
 	branch = master

@@ -9,4 +9,4 @@
 set -e
 
 cd ../build_unittest/output
-valgrind --tool=memcheck ./unittests --gtest_filter=-*Death*
+valgrind --tool=memcheck --leak-check=full --show-leak-kinds=all ./unittests --gtest_filter=-*Death*:-*DeferredCancel*

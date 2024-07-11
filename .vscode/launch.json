@@ -11,7 +11,7 @@
       "program": "${workspaceFolder}/build_unittest/output/unittests",
       "preLaunchTask": "build (unittest)",
       "args": [
-        "--gtest_filter=gpcc_log_Logger_Tests.SetGetLogLevel"
+        "--gtest_filter=TestSuite.TestCase"
       ],
       "stopAtEntry": true,
       "cwd": "${workspaceFolder}/build_unittest/output",

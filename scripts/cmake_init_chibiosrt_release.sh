@@ -15,7 +15,7 @@ rm -fr build_chibiosrt
 cmake -S . \
       -B build_chibiosrt \
       -DTOOLCHAIN_VERSION=10.3 \
-      -DCMAKE_TOOLCHAIN_FILE=toolchain_configs/cross_gcc/toolchain.arm-none-eabi-posix.cortex-m3.cmake \
+      -DCMAKE_TOOLCHAIN_FILE=extern/toolchain_configs/cross_gcc/toolchain.arm-none-eabi-posix.cortex-m3.cmake \
       -DGPCCDEV_Artifact:STRING=productive_chibios_arm \
       -DCMAKE_BUILD_TYPE=custom_release
 

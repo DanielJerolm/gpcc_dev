@@ -32,5 +32,5 @@ set(GPCC_OS "chibios_arm" CACHE STRING "" FORCE)
 # Add required sub-projects
 # ---------------------------------------------------------------------------------------------------------------------
 add_subdirectory(fake_platform_chibios)
-add_subdirectory(gpcc)
+add_subdirectory(extern/gpcc)
 target_link_libraries(gpcc PRIVATE fake_platform_chibios)

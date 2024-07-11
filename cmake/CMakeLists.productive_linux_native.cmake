@@ -21,7 +21,7 @@
 cmake_minimum_required(VERSION 3.13 FATAL_ERROR)
 project(gpcc_productive_linux LANGUAGES CXX)
 
-include(toolchain_configs/native_gcc/settings.x86_64-any-linux.cmake)
+include(extern/toolchain_configs/native_gcc/settings.x86_64-any-linux.cmake)
 
 # ---------------------------------------------------------------------------------------------------------------------
 # Configure GPCC
@@ -42,4 +42,4 @@ endif()
 # ---------------------------------------------------------------------------------------------------------------------
 # Add required sub-projects
 # ---------------------------------------------------------------------------------------------------------------------
-add_subdirectory(gpcc)
+add_subdirectory(extern/gpcc)

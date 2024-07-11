@@ -1,11 +1,11 @@
 [submodule "gpcc"]
-	path = gpcc
+	path = extern/gpcc
 	url = ../gpcc.git
 	branch = develop
 [submodule "googletest"]
-	path = googletest
+	path = extern/googletest
 	url = ../../google/googletest.git
 [submodule "toolchain_configs"]
-	path = toolchain_configs
+	path = extern/toolchain_configs
 	url = ../toolchain_configs.git
 	branch = master

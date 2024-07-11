@@ -33,7 +33,7 @@
 cmake_minimum_required(VERSION 3.13 FATAL_ERROR)
 project(gpcc_unittest_executable LANGUAGES CXX)
 
-include(toolchain_configs/native_gcc/settings.x86_64-any-linux.cmake)
+include(extern/toolchain_configs/native_gcc/settings.x86_64-any-linux.cmake)
 
 # ---------------------------------------------------------------------------------------------------------------------
 # Configure GPCC
@@ -60,8 +60,8 @@ set(GPCC_SkipSpecialRightsBasedTests OFF CACHE BOOL "" FORCE)
 # Add required sub-projects
 # ---------------------------------------------------------------------------------------------------------------------
 set(INSTALL_GTEST OFF CACHE BOOL "Prevent installation of googletest" FORCE)
-add_subdirectory(googletest)
-add_subdirectory(gpcc)
+add_subdirectory(extern/googletest)
+add_subdirectory(extern/gpcc)
 
 # ---------------------------------------------------------------------------------------------------------------------
 # Desired artifact: Unit test executable
